@@ -27,6 +27,24 @@
     <script type=module src="js/main.js"></script>
     <script type=module src="js/custom.js"></script>
 
+
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $('#body').show();
+        });
+    </script> -->
+
+    <script type="text/javascript">
+        $('#portfolio').css('opacity', 0);
+        $(window).load(function() {
+          $('#portfolio').css('opacity', 1);
+        });
+
+        $(document).ready(function() {
+        setTimeout('$("#portfolio").css("opacity", 1)', 1000);
+        });
+    </script>
+
     <!-- jquery temp -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>               
     
