@@ -115,7 +115,15 @@ header.sticky .logo, header.sticky ul li a
 {
     color: #000;
 }
-.banner_bg
+#banner
+{
+    background: url(images/banner_cover.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+/* .banner_bg *
 {
     background-size: cover;
     width: 100%;
@@ -123,7 +131,7 @@ header.sticky .logo, header.sticky ul li a
     background-position: center;
     background-attachment: fixed;
     object-fit: cover;
-}
+}*/
 #banner .bgcolor
 {
     background: linear-gradient(rgba(0,0,0,0.5), var(--blue));
