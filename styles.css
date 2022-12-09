@@ -117,7 +117,7 @@ header.sticky .logo, header.sticky ul li a
 }
 #banner
 {
-    background: url(/images/banner_cover.png);
+    background-image: url(/images/banner_cover.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
