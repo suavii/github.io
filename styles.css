@@ -123,7 +123,7 @@ header.sticky .logo, header.sticky ul li a
     background-attachment: fixed;
     min-height: 100vh;
 }
-/* .banner_bg *
+.banner_bg 
 {
     background-size: cover;
     width: 100%;
@@ -131,7 +131,19 @@ header.sticky .logo, header.sticky ul li a
     background-position: center;
     background-attachment: fixed;
     object-fit: cover;
-}*/
+    visibility: hidden;
+}
+@media (max-width: 767px) 
+{
+    .banner_bg 
+    {
+        visibility: visible;
+    }
+    #banner
+    {
+        background-image: none;
+    }
+}
 #banner .bgcolor
 {
     background: linear-gradient(rgba(0,0,0,0.5), var(--blue));
