@@ -2053,7 +2053,7 @@ div.highway-slider ul.highway-lane li.highway-car
     opacity: 0.8;
 }
 
-/* Animated logo */
+/* Animated logo 
 .animatedLogo .circle
 {
     position: relative;
@@ -2102,7 +2102,7 @@ div.highway-slider ul.highway-lane li.highway-car
     transform-origin: 0 100px;
     color: #b1b1b1;
     text-transform: uppercase;
-}
+}*/
 
 /* Footer */
 .footer
