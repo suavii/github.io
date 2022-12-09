@@ -585,11 +585,6 @@ header.sticky .logo, header.sticky ul li a
         top: 50px;
     }
 }
-@media (max-width: 767px) 
-{
-    
-}
-
 @media(min-height:268px) and (max-height:450px)
 {
     .header .logo
@@ -608,8 +603,8 @@ header.sticky .logo, header.sticky ul li a
     .video-btn 
     {
         margin-top: 20px;
-        margin-bottom: 50px;
-    }
+        /* margin-bottom: 50px; */
+    } 
     .clip1 
     {
         transform: scale(0.5);
