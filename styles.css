@@ -1903,9 +1903,10 @@ div.highway-slider ul.highway-lane li.highway-car
 {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     margin: 20px 0;
-    padding-left: 10px;
+    padding-left: 0;
 }
 .contact .sci li
 {
@@ -2267,6 +2268,13 @@ div.highway-slider ul.highway-lane li.highway-car
 		font-size: 20px;
 		right: 15px;
 	}
+}
+@media (max-width: 375px) 
+{
+    .contact .sci
+{
+    gap: 38px;
+}
 }
 
 /* 404 */
